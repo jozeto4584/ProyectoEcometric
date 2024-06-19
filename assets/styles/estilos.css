@@ -1,0 +1,53 @@
+body{
+    background-image: url(../img/imagen9.jpg);
+}
+.contenedor1 {
+    
+    text-align: center;
+    padding: 5% 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4 {
+        text-shadow: 2px 2px 4px rgba(1, 1, 1, 0.726);
+         
+}
+ h2{
+    text-shadow: 2px 2px 4px rgba(1, 1, 1, 0.726);
+ }
+    
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    padding: 2%;
+   
+    
+}
+.carousel-container {
+    max-width: 800px; 
+    margin: auto; 
+ 
+
+    
+}
+.carousel-inner {
+    width: 100%; 
+}
+.carousel-item img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 20px;
+}
+.zoom{
+    transition:transform .2s ;
+}
+.zoom:hover{
+    transform: scale(1.3);
+    
+}
+
+
+
+
